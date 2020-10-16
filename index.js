@@ -9,7 +9,7 @@ async function main(){
     if(args.length === 0){
         await getLatestBlock();
     }
-    else{
+    else if(args.length === 1){
         const search_param = args[0];
         if(search_param.startsWith('0x')){
             //Parameter passed is a hash
@@ -21,6 +21,9 @@ async function main(){
             console.log('Search parameter is a number/height');
             await searchByBlockNumber(search_param);
         }
+    }
+    else{
+        console.log("Usage: node index.js <blockHeight or blockHash>");
     }
 }
 
