@@ -1,0 +1,22 @@
+{
+  "name": "polka-cli",
+  "version": "1.0.0",
+  "description": "Submission to polkadot gitcoin challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksaikiranr/polkadot-gitcoin-challenge-Back-End-Javascript-Cli.git"
+  },
+  "author": "ksaikiranr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksaikiranr/polkadot-gitcoin-challenge-Back-End-Javascript-Cli/issues"
+  },
+  "homepage": "https://github.com/ksaikiranr/polkadot-gitcoin-challenge-Back-End-Javascript-Cli#readme",
+  "dependencies": {
+    "@polkadot/api": "^2.2.1"
+  }
+}
